@@ -44,7 +44,8 @@ const fire = async (query) => {
     method: "post",
     headers: {
       "Content-Type": "application/json",
-      "x-hasura-admin-secret": "HASURA_API_KEY",
+      "x-hasura-admin-secret":
+        "vwWr4W9F0YlLjwmpPktdAH4jI7a3peefSeeEFTBRlhAtDqMriCrlbTnLUmtffiS6",
     },
     body: JSON.stringify({
       query: query,
@@ -105,7 +106,7 @@ const stt = async () => {
     const mediaRecorder = new MediaRecorder(stream, { mimeType: "audio/webm" });
     const socket = new WebSocket("wss://api.deepgram.com/v1/listen", [
       "token",
-      "DEEPGRAM_SECRET_KEY",
+      "e737544406eed083961c0431947d8b11f0b2593e",
     ]);
     socket.onopen = () => {
       obj.addEventListener("click", () => socket.close());

@@ -35,7 +35,8 @@ const fire = async (query) => {
     method: "post",
     headers: {
       "Content-Type": "application/json",
-      "x-hasura-admin-secret": "HASURA_SECRET_KEY",
+      "x-hasura-admin-secret":
+        "vwWr4W9F0YlLjwmpPktdAH4jI7a3peefSeeEFTBRlhAtDqMriCrlbTnLUmtffiS6",
     },
     body: JSON.stringify({
       query: query,
