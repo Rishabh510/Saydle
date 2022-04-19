@@ -14,6 +14,11 @@ Saydle is a fun project which I built to give a twist to normal Wordle. We norma
 - Also, there is no Enter or Delete key concept in this game. That means, as soon as you speak a 5 letter word, it is automatically submitted 😈.
 - It uses passwordless authentication to authenticate users and maintain a history of the number of matches played and the number of matches won against each user.
 
+# How to Play 📄
+![image](https://user-images.githubusercontent.com/42823059/163994676-b2afa08c-5696-48f6-8a6a-79c71c3358d6.png)
+
 # Screenshots 🖼️
 ![](sawo.png)
 ![](home.png)
+
+
